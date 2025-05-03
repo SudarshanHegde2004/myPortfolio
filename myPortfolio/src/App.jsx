@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import BigCard from './components/BigCard'
 import About from './components/About'
 import Project from './components/Project'
@@ -53,7 +53,7 @@ function App() {
       <footer className="text-center py-6">
         <p className="text-gray-600">
           &copy; 2025 Sudarshan Hegde. All rights reserved. <br />
-          (of course I have no rights reserved, please don't sue me 😅)
+          
         </p>
       </footer>
     </>

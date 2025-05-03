@@ -38,9 +38,9 @@ const Navbar = () => {
           <a key={index} href={url} target="_blank" rel="noopener noreferrer">
             <img
               className="h-10 w-10 rounded-lg mx-[8px] cursor-pointer hover:scale-125 transition-transform duration-200"
-              src={`/${platform}.png`}
+              src={`${import.meta.env.BASE_URL}${platform}.png`}
               alt={platform}
-              onError={(e) => (e.target.src = `/${platform}.jpg`)}
+              onError={(e) => (e.target.src = `${import.meta.env.BASE_URL}${platform}.jpg`)}
             />
           </a>
         ))}
@@ -83,9 +83,9 @@ const Navbar = () => {
             <a key={index} href={url} target="_blank" rel="noopener noreferrer">
               <img
                 className="h-8 w-8 rounded-lg cursor-pointer hover:scale-110 transition-transform duration-200"
-                src={`/${platform}.png`}
+                src={`${import.meta.env.BASE_URL}${platform}.png`}
                 alt={platform}
-                onError={(e) => (e.target.src = `/${platform}.jpg`)}
+                onError={(e) => (e.target.src = `${import.meta.env.BASE_URL}${platform}.jpg`)}
               />
             </a>
           ))}

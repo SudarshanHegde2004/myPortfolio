@@ -10,7 +10,7 @@ function Project() {
         "A responsive portfolio website built using React and Tailwind CSS. The website showcases my skills, projects, and certifications.",
       fullDescription:
         "This portfolio includes sections like About Me, Skills, Projects, and Certifications. It's built entirely with React and styled using Tailwind CSS for rapid development and responsive design. It includes dark mode, smooth scroll, and reusable modular components. The project demonstrates a strong understanding of component-driven architecture and modern front-end principles.",
-      imageSrc: "/proj_img01.png",
+      imageSrc: `${import.meta.env.BASE_URL}proj_img01.png`,
     },
     {
       title: "Object detection using TensorFlow",
@@ -18,7 +18,7 @@ function Project() {
         "A machine learning project that uses TensorFlow to detect objects in images.",
       fullDescription:
         "In this project, a custom CNN model was trained using TensorFlow to recognize multiple object classes with bounding boxes. It includes data preprocessing, augmentation, model architecture, training pipelines, and real-time inference. This project highlights expertise in ML workflows, including TensorBoard visualization, model evaluation, and deployment readiness.",
-      imageSrc: "/proj_img02.png",
+      imageSrc: `${import.meta.env.BASE_URL}proj_img02.png`,
     },
   ];
 
@@ -76,10 +76,9 @@ function Project() {
               onClick={closeModal}
               className="cursor-pointer absolute top-4 right-4 w-6 h-6 rounded-full bg-yellow-400 hover:bg-yellow-300 shadow-md flex items-center justify-center text-black font-bold text-lg transition-colors"
               title="Close"
-            >     
+            >
               &minus;
             </button>
-
 
             <img
               src={selectedProject.imageSrc}

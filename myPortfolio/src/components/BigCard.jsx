@@ -25,7 +25,7 @@ const BigCard = () => {
         {/* Left Side - Image and Text */}
         <div className="w-full md:w-1/3 flex flex-col items-center md:items-start">
           <img
-            src="/profile_pic.jpg"
+            src={`${import.meta.env.BASE_URL}profile_pic.jpg`}
             alt="Profile"
             className="w-full h-full object-cover rounded-lg mb-4"
           />

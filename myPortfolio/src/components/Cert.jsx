@@ -11,7 +11,7 @@ function Cert() {
         "In a world where automation is becoming increasingly important, this course provides a comprehensive introduction to the UiPath platform, covering everything from the basics of RPA to advanced automation techniques.",
       moreDescription:
         "The course explores UiPath Studio, attended vs unattended bots, workflow automation, and practical examples that simulate real-world business processes. This helps build a solid foundation in RPA development.",
-      imageSrc: "/cert-auto-01.jpg",
+      imageSrc: `${import.meta.env.BASE_URL}cert-auto-01.jpg`,
       certLink: "https://www.example.com/your-certificate-link-1",
     },
     {
@@ -19,7 +19,7 @@ function Cert() {
       description: "A comprehensive introduction to the UiPath platform, covering everything from the basics of RPA to advanced automation techniques.",
       moreDescription:
         "The course explores UiPath Studio, attended vs unattended bots, workflow automation, and practical examples that simulate real-world business processes. This helps build a solid foundation in RPA development.",
-      imageSrc: "/cert-auto-02.jpg",
+      imageSrc: `${import.meta.env.BASE_URL}cert-auto-02.jpg`,
       certLink: "https://www.example.com/your-certificate-link-2",
     },
     {
@@ -27,7 +27,7 @@ function Cert() {
       description: "In a world where automation is becoming increasingly important, this course provides a comprehensive introduction to the UiPath platform, covering everything from the basics of RPA to advanced automation techniques.",
       moreDescription:
         "The course explores UiPath Studio, attended vs unattended bots, workflow automation, and practical examples that simulate real-world business processes. This helps build a solid foundation in RPA development.",
-      imageSrc: "/cert-auto-02.jpg",
+      imageSrc: `${import.meta.env.BASE_URL}cert-auto-02.jpg`,
       certLink: "https://www.example.com/your-certificate-link-2",
     },
   ];
