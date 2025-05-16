@@ -31,5 +31,23 @@
     opacity: 0;
     pointer-events: none;
   }
-  
-  
+
+/* Mobile adjustments for background animation */
+@media (max-width: 640px) {
+  .bg-animation {
+    filter: blur(0px);
+    height: 100vh;
+    width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  .circle {
+    filter: blur(30px);
+    width: 120px !important;
+    height: 120px !important;
+    animation-duration: 6s !important;
+  }
+}
+
