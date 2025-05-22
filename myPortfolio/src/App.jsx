@@ -5,6 +5,7 @@ import BigCard from './components/BigCard'
 import About from './components/About'
 import Project from './components/Project'
 import Cert from './components/Cert'
+import ContactMe from './components/contactMe'
 
 function App() {
   const bubbles = Array.from({ length: 100 }).map((_, index) => {
@@ -50,6 +51,7 @@ function App() {
       <About />
       <Project />
       <Cert />
+      <ContactMe />
       <footer className="text-center py-6">
         <p className="text-gray-600">
           &copy; 2025 Sudarshan Hegde. All rights reserved. <br />
