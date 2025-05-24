@@ -93,7 +93,7 @@ function About() {
     </div>
 
     {/* Engineering */}
-    <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-indigo-400 hover:bg-white/10">
+    <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-gray-700 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-green-400 hover:bg-white/10">
       <div className="flex items-center justify-between mb-6">
         <p className="text-2xl font-bold text-green-700">Engineering</p>
         <svg className="w-8 text-green-400" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,7 +104,7 @@ function About() {
       <p className="text-gray-300 mb-2 font-medium">Sambhram Institute Of Technology</p>
       <p className="text-gray-400 text-sm mb-3">Bangalore, Karnataka | 2022-2026</p>
       <p className="text-gray-300">
-        Pursuing Bachelor of Engineering in Computer Science with current CGPA of 8.9. Specializing in full-stack development, cloud computing, and AI technologies.
+        Pursuing Bachelor of Engineering in Computer Science with current CGPA of 8.9. Specializing in Object oriened Programming, cloud computing, and AI technologies.
       </p>
       <div className="mt-4 flex items-center gap-3">
             <span className="px-2 py-1 text-xs bg-blue-900/50 text-blue-300 rounded-full">VTU</span>

@@ -30,6 +30,31 @@ function Cert() {
       imageSrc: `${import.meta.env.BASE_URL}cert-auto-02.jpg`,
       certLink: "https://www.example.com/your-certificate-link-2",
     },
+
+    {
+      title: "Robotic Process Automation (RPA)",
+      description: "In a world where automation is becoming increasingly important, this course provides a comprehensive introduction to the UiPath platform, covering everything from the basics of RPA to advanced automation techniques.",
+      moreDescription:
+        "the course explores UiPath Studio, attended vs unattended bots, workflow automation, and practical examples that simulate real-world business processes. This helps build a solid foundation in RPA development.",
+      imageSrc: `${import.meta.env.BASE_URL}cert004.jpg`,
+      certLink: "https://www.example.com/your-certificate-link-2",
+    },
+    {
+      title: "Power BI and Data Visualization Skill Development Program",
+      description: "A comprehensive intrductio to power BI, covering everything from the basics of data visualization to advanced analytics techniques.",
+      moreDescription:
+        "The course explores Power BI Desktop, data modeling, DAX expressions, and practical examples that simulate real-world business scenarios. This helps build a solid foundation in data visualization and analytics.",
+      imageSrc: `${import.meta.env.BASE_URL}cert005.jpg`,
+      certLink: "https://www.example.com/your-certificate-link-2",
+    },
+    {
+      title: "Data Analytics with Power BI Workshop",
+      description: "Data Analytics with Power BI Workshop is a hands-on training program designed to equip participants with the skills needed to analyze and visualize data effectively using Power BI.",
+      moreDescription:
+        "The workshop covers data modeling, DAX expressions, and practical examples that simulate real-world business scenarios. This helps build a solid foundation in data analytics and visualization.",
+      imageSrc: `${import.meta.env.BASE_URL}cert006.jpg`,
+      certLink: "https://www.example.com/your-certificate-link-2",
+    },
   ];
 
   const handleOpenModal = (cert) => {
