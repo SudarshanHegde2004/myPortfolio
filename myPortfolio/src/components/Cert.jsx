@@ -6,6 +6,15 @@ function Cert() {
 
   const certificates = [
     {
+      title: "Deep Learning - IIT Ropar",
+      description:
+        "Completed the NPTEL Deep Learning course offered by IIT Ropar, gaining foundational and advanced knowledge in neural networks and deep learning techniques.",
+      moreDescription:
+        "This NPTEL course by IIT Ropar provided a strong foundation in deep learning, covering neural networks, perceptrons, activation functions, backpropagation, CNNs, RNNs, and generative models. The program balanced theory with hands-on practice using frameworks like TensorFlow and Keras. Through lectures and assignments, I learned to design, train, and evaluate deep learning models for tasks such as image classification and natural language processing, preparing me to apply deep learning to real-world AI problems.",
+      imageSrc: `${import.meta.env.BASE_URL}deepLearning.jpeg`,
+      certLink: "https://www.example.com/your-certificate-link-1",
+    },
+    {
       title: "UI path - variables constants and arguments in studio",
       description:
         "In a world where automation is becoming increasingly important, this course provides a comprehensive introduction to the UiPath platform, covering everything from the basics of RPA to advanced automation techniques.",
