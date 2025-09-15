@@ -47,16 +47,22 @@ function App() {
       </div>
 
       <Navbar />
-      <BigCard />
-      <About />
-      <Project />
-      <Cert />
-      <ContactMe />
-      <footer className="text-center py-6">
-        <p className="text-gray-600">
-          &copy; 2025 Sudarshan Hegde. All rights reserved. <br />
-          
-        </p>
+      <div className="pt-20">
+        <BigCard />
+        <About />
+        <Project />
+        <Cert />
+        <ContactMe />
+      </div>
+      <footer className="text-center py-12">
+        <div className="max-w-4xl mx-auto px-6">
+          <blockquote className="text-white/90 text-lg md:text-xl font-medium leading-relaxed mb-8 italic">
+            "Surround yourself with relentless humans. People who plan in decades, but live in moments. Train like savages, but create like artists. Obsess in work, relax in life. People who know this is finite and choose to play infinite games. Find people going up mountains and climb together."
+          </blockquote>
+          <p className="text-gray-400 text-sm">
+            &copy; 2025 Sudarshan Hegde. All rights reserved.
+          </p>
+        </div>
       </footer>
     </>
   )

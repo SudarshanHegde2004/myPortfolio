@@ -2,18 +2,20 @@ import React, { useState, useEffect } from 'react';
 
 const BigCard = () => {
   const [displayText, setDisplayText] = useState('');
-  const fullText = "I am Sudarshan Hegde, a Computer Science and Engineering student at Sambhram Institute of Technology, affiliated with Visvesvaraya Technological University. Passionate about technology and problem-solving, I have developed a strong foundation in programming languages such as C++, C, Python, and Java, with a particular interest in web development. My skills in HTML, CSS, JavaScript, React, and Tailwind CSS enable me to create dynamic and responsive web applications. I developed a portfolio project using these technologies, which enhanced my understanding of web design and development. I am eager to take on challenging projects, collaborate with others, and contribute innovative solutions in the tech industry, aiming to make a meaningful impact while continuously growing as a computer scientist.";
+  const fullText = "I am Sudarshan Hegde, a Computer Science and Engineering student at Sambhram Institute of Technology, affiliated with Visvesvaraya Technological University. Passionate about technology and problem-solving, I have built a strong foundation in programming languages such as C++, C, Python, and Java. My primary focus lies in Machine Learning, Deep Learning, Artificial Intelligence, and Cybersecurity, fields where I aim to innovate and create impactful solutions. Additionally, I possess skills in web development using HTML, CSS, JavaScript, React, and Tailwind CSS, demonstrated through a portfolio project that strengthened my understanding of design and development. I am eager to take on challenging projects, collaborate with others, and contribute innovative solutions in the tech industry, striving to make a meaningful impact while continuously evolving as a computer scientist.";
 
   useEffect(() => {
+    setDisplayText('');
     let i = 0;
+    
     const typingInterval = setInterval(() => {
-      if (i < fullText.length) {
-        setDisplayText(prevText => prevText + fullText.charAt(i));
+      if (i <= fullText.length) {
+        setDisplayText(fullText.slice(0, i));
         i++;
       } else {
         clearInterval(typingInterval);
       }
-    }, 20);
+    }, 30);
 
     return () => clearInterval(typingInterval);
   }, []);
@@ -25,7 +27,7 @@ const BigCard = () => {
         {/* Left Side - Image and Text */}
         <div className="w-full md:w-1/3 flex flex-col items-center md:items-start">
           <img
-            src={`${import.meta.env.BASE_URL}profile_pic.jpg`}
+            src={`${import.meta.env.BASE_URL}Profile_pic.jpg`}
             alt="Profile"
             className="w-full h-full object-cover rounded-lg mb-4"
           />
