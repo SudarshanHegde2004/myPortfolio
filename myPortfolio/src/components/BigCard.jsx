@@ -27,7 +27,7 @@ const BigCard = () => {
         {/* Left Side - Image and Text */}
         <div className="w-full md:w-1/3 flex flex-col items-center md:items-start">
           <img
-            src={`${import.meta.env.BASE_URL}Profile_pic.jpg`}
+            src={`${import.meta.env.BASE_URL}profile_pic.jpg`}
             alt="Profile"
             className="w-full h-full object-cover rounded-lg mb-4"
           />
@@ -36,7 +36,7 @@ const BigCard = () => {
             <p className="text-lg font-semibold text-white/80">Computer Science and Engineering Student</p>
           </div>
           <div className="flex justify-center p-6 pt-2 gap-7">
-            <a href="mailto:sudarshanhegde2004@gmail.com">
+            <a href="mailto:sudohegde@gmail.com">
               <button className="min-w-32 rounded-md bg-white/10 py-2 px-4 text-center text-sm text-white transition-all hover:bg-white/20 hover:scale-105 focus:bg-white/20 active:bg-white/20 backdrop-blur-sm shadow-lg" type="button">
                 Contact
               </button>

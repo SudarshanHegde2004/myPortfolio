@@ -20,6 +20,14 @@ function Project() {
         "In this project, a custom CNN model was trained using TensorFlow to recognize multiple object classes with bounding boxes. It includes data preprocessing, augmentation, model architecture, training pipelines, and real-time inference. This project highlights expertise in ML workflows, including TensorBoard visualization, model evaluation, and deployment readiness.",
       imageSrc: `${import.meta.env.BASE_URL}proj_img02.png`,
     },
+    {
+      title: "Unet-polyogon",
+      description:
+        "UNet-based model to color polygons using shape and color inputs.",
+      fullDescription:
+        "This project implements a UNet architecture to color polygons based on user-defined shapes and colors. It includes data preparation, model training, and inference pipelines. The model can generate colored polygon images based on input parameters, showcasing advanced skills in computer vision and deep learning. The project demonstrates expertise in semantic segmentation, custom dataset creation, and advanced neural network architectures for computer graphics applications.",
+      imageSrc: `${import.meta.env.BASE_URL}proj_img03.png`,
+    },
   ];
 
   const openModal = (project) => {

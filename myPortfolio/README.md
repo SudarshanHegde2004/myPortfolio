@@ -149,7 +149,7 @@ The project uses `import.meta.env.BASE_URL` for asset paths. This is automatical
 
 ## 📞 **Contact**
 
-- **Email**: sudarshanhegde2004@gmail.com
+- **Email**: sudohegde@gmail.com
 - **LinkedIn**: [Sudarshan Hegde](https://www.linkedin.com/in/sudarshan-hegde-474856226/)
 - **GitHub**: [SudarshanHegde2004](https://github.com/SudarshanHegde2004)
 
